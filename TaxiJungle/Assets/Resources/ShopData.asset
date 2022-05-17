@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca68814e743ddc04ab517885c46daf90, type: 3}
+  m_Name: ShopData
+  m_EditorClassIdentifier: 
+  _selectIndex: 0
+  shopItems:
+  - _itemName: Vw
+    _isUnlocked: 1
+    _unlockCost: 0
+    _unlockLeve1: 0
+    _CarLevel:
+    - _unlockCost: 0
+      _Maxspeed: 80
+      _acceleration: 2
+    - _unlockCost: 100
+      _Maxspeed: 100
+      _acceleration: 3
+    - _unlockCost: 150
+      _Maxspeed: 120
+      _acceleration: 4
+  - _itemName: 
+    _isUnlocked: 1
+    _unlockCost: 0
+    _unlockLeve1: 0
+    _CarLevel:
+    - _unlockCost: 0
+      _Maxspeed: 80
+      _acceleration: 2
+    - _unlockCost: 100
+      _Maxspeed: 100
+      _acceleration: 3
+    - _unlockCost: 150
+      _Maxspeed: 120
+      _acceleration: 4
+  - _itemName: Vw
+    _isUnlocked: 1
+    _unlockCost: 0
+    _unlockLeve1: 0
+    _CarLevel:
+    - _unlockCost: 0
+      _Maxspeed: 80
+      _acceleration: 2
+    - _unlockCost: 100
+      _Maxspeed: 100
+      _acceleration: 3
+    - _unlockCost: 150
+      _Maxspeed: 120
+      _acceleration: 4

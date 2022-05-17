@@ -1,0 +1,7 @@
+
+interface IIteractabel
+{
+    void Interact();
+}
+
+
