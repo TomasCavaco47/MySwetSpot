@@ -5,9 +5,9 @@
 
 //namespace ShopSystem
 //{
-    
-// public class ShopUi : MonoBehaviour
-// {
+
+//    public class ShopUi : MonoBehaviour
+//    {
 //        [SerializeField] int _totalCoins = 5000;
 //        [SerializeField] ShopSaveScriptable _shopData;
 //        [SerializeField] GameObject[] _carsModels;
@@ -25,6 +25,14 @@
 //            _totalCoinsText.text = "" + _totalCoins;
 //            SetCarInfo();
 
+//            _unlockBtn.onClick.AddListener(() => UnlockSelectBtnMethod());
+//            _upgradeBtn.onClick.AddListener(() => UpgradeBtnMethod());
+//            _nextBtn.onClick.AddListener(() => NextBtnMethod());
+//            _previousBtn.onClick.AddListener(() => PreviousBtnMethod());
+
+//            _carsModels[_currentIndex].SetActive(true);
+//            if (_currentIndex == 0) _previousBtn.interactable = false;
+//;
 
 //        }
 
@@ -44,11 +52,11 @@
 //        void PreviousBtnMethod()
 //        {
 
-//        } 
+//        }
 //        void UnlockSelectBtnMethod()
 //        {
 
-//        } 
+//        }
 //        void UpgradeBtnMethod()
 //        {
 

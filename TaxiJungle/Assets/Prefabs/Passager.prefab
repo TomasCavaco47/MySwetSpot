@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 824033693660440753}
   - component: {fileID: 6195496826468071604}
   - component: {fileID: 3160058898357480953}
-  - component: {fileID: 5335949542920007163}
+  - component: {fileID: -2676526208772474025}
   - component: {fileID: -8771089081996199022}
   - component: {fileID: 286969067319884764}
   - component: {fileID: 7582270200632407042}
@@ -33,7 +33,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -34.8, y: 0, z: 14.9}
   m_LocalScale: {x: 5.6493, y: 5.6493, z: 5.6493}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -57,7 +56,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -101,7 +99,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5335949542920007163
+--- !u!114 &-2676526208772474025
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,17 +108,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1262700655844687812}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3a70671137a4fd4fb3cf5c5ef432305, type: 3}
+  m_Script: {fileID: 11500000, guid: 87f504b2b5adfc544b2809ab326a7011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mM: {fileID: 6765220515773199749, guid: 8d673d4408681f34db5d954b46c687b9, type: 3}
+  _gps: {fileID: 6084261276589652842, guid: 7e715b5064c047f409488873da41a62b, type: 3}
+  _car: {fileID: 0}
+  _stop: {fileID: 5022100459736461623, guid: e8aa4e1a5a073c44ebe49ea469556958, type: 3}
+  _space: {fileID: 6535825541727046963, guid: 0a385233a9ca04645a7e878971f61829, type: 3}
   _goalSpot: {fileID: 8261194048123627489, guid: 3f757361051e2f64386c2aa5d1f145d9, type: 3}
   _goal: {fileID: 5345126727588886145, guid: 894fc28f0cf14cb4d90a7575190d40fe, type: 3}
-  _gps: {fileID: 6084261276589652842, guid: 7e715b5064c047f409488873da41a62b, type: 3}
   _Dialogue: {fileID: -8771089081996199022}
   _phone: {fileID: 286969067319884764}
   _Payment: {fileID: 7582270200632407042}
-  _render: {fileID: 6195496826468071604}
 --- !u!114 &-8771089081996199022
 MonoBehaviour:
   m_ObjectHideFlags: 0

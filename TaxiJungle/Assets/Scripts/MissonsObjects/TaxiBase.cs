@@ -7,9 +7,8 @@ public class TaxiBase : MonoBehaviour
 {
     [SerializeField] MissonManager _mM;
     [SerializeField] GpsLocalizador _gps;
-   
+
     [SerializeField] GameObject _stop;
-    [SerializeField] BoxCollider _box;
     [SerializeField] MeshRenderer _render; 
     [SerializeField] CarControler2 _car;
 

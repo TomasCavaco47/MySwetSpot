@@ -11,7 +11,7 @@ public class Passager : MonoBehaviour
     [SerializeField] DialogTrigger _Dialogue;
     [SerializeField] PhoneTrigger _phone;
     [SerializeField] PaymentTrigger _Payment;
-    [SerializeField] MeshRenderer _render;
+    
 
     private void Start()
     {
@@ -39,11 +39,6 @@ public class Passager : MonoBehaviour
     public void LastDialogue()
     {
         _Payment.StartPaymentDialogue();
-        
-        
-
-
-
     }
 
     
